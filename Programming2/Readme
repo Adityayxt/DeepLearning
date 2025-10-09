@@ -1,1 +1,8 @@
+Data Usage Explanation
 
+In this assignment, I did not download the dataset from the internet during runtime. Instead, I placed the dataset file (cifar-10-python.tar.gz) in the same local directory as the code for the following reasons:
+To enhance the reproducibility and runtime efficiency of the code, I manually downloaded the data and stored it locally in the same directory as the code files, instead of implementing an online download method within the code. This approach avoids issues caused by network fluctuations and, at the same time, enables the code to be run directly without an internet connection during the grading process, facilitating the review work.
+
+Original Source
+The dataset used is CIFAR-10, which can be downloaded from the official website:
+🔗 https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
