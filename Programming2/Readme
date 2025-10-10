@@ -1,8 +1,22 @@
-Data Usage Explanation
+## Data Usage Explanation
 
-In this assignment, I did not download the dataset from the internet during runtime. Instead, I placed the dataset file (cifar-10-python.tar.gz) in the same local directory as the code for the following reasons:
-To enhance the reproducibility and runtime efficiency of the code, I manually downloaded the data and stored it locally in the same directory as the code files, instead of implementing an online download method within the code. This approach avoids issues caused by network fluctuations and, at the same time, enables the code to be run directly without an internet connection during the grading process, facilitating the review work.
+In this assignment, I did **not download the dataset from the internet during runtime**. Instead, I manually downloaded the dataset file (`cifar-10-python.tar.gz`) and placed it in the **same local directory** as the code files. This decision was made for the following reasons:
 
-Original Source
-The dataset used is CIFAR-10, which can be downloaded from the official website:
-🔗 https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+1. **Reproducibility and Runtime Efficiency**  
+   By using a local copy of the dataset, the code becomes more stable and efficient. It avoids repeated downloads and eliminates the risk of failures due to unstable internet connections during execution or grading.
+
+2. **Network Restrictions in China**  
+   Due to internet access limitations in mainland China, it is often **difficult or impossible to download datasets directly from foreign-hosted URLs**, such as the one used by `tensorflow.keras.datasets.cifar10.load_data()`. Therefore, I downloaded the dataset manually and used the local file to ensure reliable access during development and grading.
+
+3. **Offline Execution for Grading**  
+   Storing the dataset locally allows the notebook to be run fully offline, making it more convenient for instructors or TAs to review without requiring internet access or modifying the code.
+
+---
+
+## 🌐 Original Dataset Source
+
+The dataset used in this assignment is **CIFAR-10**,  It can be downloaded from the official website:
+
+🔗 [https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz](https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz)
+
+The dataset used in this assignment is identical to the official version and has not been altered in any way.
